@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="all">
+        <item
+            android:id = "@+id/DBMS"
+            android:checkable="true"
+            android:title = "DBMS" />
+        <item
+            android:id = "@+id/AI"
+            android:checkable="true"
+            android:title = "AI"/>
+        <item
+            android:id = "@+id/OT"
+            android:checkable="true"
+            android:title = "PE"/>
+
+        <item
+            android:id = "@+id/DAA"
+            android:checkable="true"
+            android:title = "DAA"/>
+        <item
+            android:id = "@+id/CN"
+            android:checkable="true"
+            android:title = "CN"/>
+    </group>
+</menu>
